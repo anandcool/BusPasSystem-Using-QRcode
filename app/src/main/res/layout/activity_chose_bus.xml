@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ChoseBus"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/bus">
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chose the Arrival place"
+        android:textAlignment="center" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp"></Spinner>
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the Destination place"
+        android:textAlignment="center"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp1">
+    </Spinner>
+    <TextView
+
+        android:id="@+id/datepicker"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/timepicker"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Go to Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:id="@+id/btngonxt"/>
+</LinearLayout>

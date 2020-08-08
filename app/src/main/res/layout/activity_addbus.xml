@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Addbus"
+    android:background="@drawable/aab"
+    android:padding="43dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ADD BUS"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:textSize="60dp"
+        android:textColor="#000000"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Bus Name"
+            android:id="@+id/busname"
+            android:textColor="@color/colorPrimary"
+            android:shadowColor="@color/colorAccent"
+            android:textColorHint="#000000"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pickup Location"
+            android:id="@+id/bfrom"
+            android:textColor="@color/colorPrimary"
+            android:shadowColor="@color/colorAccent"
+            android:textColorHint="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Drop Location"
+        android:id="@+id/bto"
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorAccent"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Bus Timing"
+        android:id="@+id/btiming"
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorAccent"
+        android:textColorHint="#000000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btnsubmit"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button1"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+</LinearLayout>

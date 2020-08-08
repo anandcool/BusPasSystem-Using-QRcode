@@ -1,0 +1,6 @@
+<android.support.v7.widget.AppCompatCheckBox style="@style/MyCustomCheckbox"
+    android:checked="false"
+    android:id="@+id/mychkbox"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

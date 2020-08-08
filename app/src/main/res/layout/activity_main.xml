@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="43dp"
+    android:background="@drawable/qwe"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:fontFamily="monospace"
+        android:text="ADD USER"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Enter the Full Name"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the E-mail Address"
+        android:inputType="textEmailAddress"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/pno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Phone Number"
+        android:inputType="phone"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Password"
+        android:inputType="textPassword"
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button1"
+        android:text="SignUp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button1"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</LinearLayout>
